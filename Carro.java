@@ -1,5 +1,7 @@
 public class Carro implements Motor, Veiculo {
     
+    @Override
+    public int getFabricante() {
         // TODO Auto-generated method stub
         return 1;
     }
@@ -20,6 +22,6 @@ public class Carro implements Motor, Veiculo {
         return 1;
     }
     public Carro(){
-
+        
     }
 }
